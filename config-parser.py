@@ -1,6 +1,6 @@
 # Environment Config Parser
 
-def parse_env_config(config_string: str): # -> dict[str, str]
+def parse_env_config(config_string: str) -> dict[str, str]:
     config = {}
 
     for l in config_string.splitlines():
